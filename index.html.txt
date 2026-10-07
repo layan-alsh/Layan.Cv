@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>السيرة الذاتية | ليان محمد عبدالهادي الرضيمان</title>
+<style>
+:root {
+--primary-color: #0f4c81;
+--secondary-color: #2b6cb0;
+--accent-color: #edf2f7;
+--text-dark: #2d3748;
+--text-muted: #4a5568;
+--bg-color: #f7fafc;
+--card-bg: #ffffff;
+}
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Tahoma, Geneva, sans-serif;
+background-color: var(--bg-color);
+color: var(--text-dark);
+line-height: 1.7;
+padding: 30px 15px;
+}
+.container {
+max-width: 850px;
+margin: 0 auto;
+background: var(--card-bg);
+padding: 40px 50px;
+border-radius: 12px;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+border-top: 6px solid var(--primary-color);
+}
+header {
+text-align: center;
+border-bottom: 2px solid #e2e8f0;
+padding-bottom: 25px;
+margin-bottom: 30px;
+}
+header h1 {
+color: var(--primary-color);
+font-size: 28px;
+font-weight: 700;
+margin-bottom: 12px;
+}
+.contact-info {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+font-size: 14px;
+color: var(--text-muted);
+}
+.contact-info div {
+display: flex;
+align-items: center;
+gap: 6px;
+background: var(--accent-color);
+padding: 6px 14px;
+border-radius: 20px;
+}
+section {
+margin-bottom: 30px;
+}
+.section-title {
+color: var(--primary-color);
+font-size: 18px;
+font-weight: 700;
+border-bottom: 2px solid var(--primary-color);
+padding-bottom: 6px;
+margin-bottom: 18px;
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.item {
+margin-bottom: 20px;
+}
+.item-header {
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+flex-wrap: wrap;
+margin-bottom: 4px;
+}
+.item-title {
+font-weight: 700;
+font-size: 16px;
+color: var(--text-dark);
+}
+.item-subtitle {
+color: var(--secondary-color);
+font-weight: 600;
+font-size: 14px;
+}
+.item-duration {
+font-size: 13px;
+color: #718096;
+background: #f0f4f8;
+padding: 2px 8px;
+border-radius: 4px;
+}
+ul.bullets {
+margin-top: 8px;
+padding-right: 20px;
+color: var(--text-muted);
+font-size: 14.5px;
+}
+ul.bullets li {
+margin-bottom: 6px;
+}
+.grid-list {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+gap: 12px;
+list-style: none;
+padding: 0;
+}
+.grid-list li {
+background: var(--accent-color);
+padding: 10px 14px;
+border-radius: 6px;
+font-size: 14px;
+color: var(--text-dark);
+border-right: 3px solid var(--secondary-color);
+}
+.tags-list {
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+list-style: none;
+padding: 0;
+}
+.tag {
+background-color: #ebf8ff;
+color: #2b6cb0;
+border: 1px solid #bee3f8;
+padding: 6px 16px;
+border-radius: 20px;
+font-size: 14px;
+font-weight: 600;
+}
+@media print {
+body {
+background: none;
+padding: 0;
+}
+.container {
+box-shadow: none;
+padding: 20px;
+}
+}
+@media (max-width: 600px) {
+.container {
+padding: 25px 20px;
+}
+.contact-info {
+flex-direction: column;
+align-items: stretch;
+}
+.contact-info div {
+justify-content: center;
+}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>ليان محمد عبدالهادي الرضيمان</h1>
+<div class="contact-info">
+<div>📱 0552998705</div>
+<div>✉️ laynbdalhady338@gmail.com</div>
+<div>🇸🇦 الجنسية: سعودية</div>
+</div>
+</header>
+<section>
+<h2 class="section-title">🎓 المؤهل العلمي</h2>
+<div class="item">
+<div class="item-header">
+<span class="item-title">دكتوراة في نظم المعلومات الإدارية</span>
+<span class="item-subtitle">جامعة الملك سعود</span>
+</div>
+<p style="font-size: 14px; color: var(--text-muted); margin-top: 4px;">التخصص: نظم معلومات إدارية</p>
+</div>
+</section>
+<section>
+<h2 class="section-title">💼 الخبرات المهنية</h2>
+<div class="item">
+<div class="item-header">
+<span class="item-title">أخصائية نظم معلومات إدارية</span>
+<span class="item-subtitle">شركة أرامكو السعودية</span>
+<span class="item-duration">6 أشهر</span>
+</div>
+<ul class="bullets">
+<li>تحليل وتطوير نظم المعلومات الإدارية لدعم العمليات المؤسسية.</li>
+<li>التنسيق مع الفرق التقنية والإدارية لتطوير الحلول الرقمية.</li>
+<li>إعداد التقارير ولوحات المعلومات (Dashboards) لدعم اتخاذ القرارات.</li>
+</ul>
+</div>
+<div class="item">
+<div class="item-header">
+<span class="item-title">محللة نظم أعمال</span>
+<span class="item-subtitle">شركة سابك (SABIC)</span>
+<span class="item-duration">4 أشهر</span>
+</div>
+<ul class="bullets">
+<li>تحليل متطلبات الأعمال وتطوير الحلول التقنية المناسبة.</li>
+<li>تحسين العمليات الإدارية باستخدام أنظمة المعلومات.</li>
+</ul>
+</div>
+<div class="item">
+<div class="item-header">
+<span class="item-title">أخصائية تحول رقمي ونظم المعلومات</span>
+<span class="item-subtitle">شركة المعمر لإنظمة المعلومات</span>
+<span class="item-duration">5 أشهر</span>
+</div>
+<ul class="bullets">
+<li>المشاركة في تنفيذ مشاريع التحول الرقمي.</li>
+<li>المساهمة في تحسين تكامل الأنظمة التقنية والإدارية.</li>
+</ul>
+</div>
+</section>
+<section>
+<h2 class="section-title">📜 الدورات التدريبية والشهادات</h2>
+<ul class="grid-list">
+<li><strong>برنامج تطوير مهارات القيادة والإدارة</strong>
+<small>أرامكو السعودية - شهر واحد</small></li>
+<li><strong>برنامج تطوير المهارات الرقمية</strong>
+<small>أرامكو السعودية - أسبوع واحد</small></li>
+<li><strong>برنامج الذكاء الاصطناعي وتحليل البيانات</strong>
+<small>أرامكو السعودية - أسبوع واحد</small></li>
+<li><strong>شهادة إدارة المشاريع الاحترافية (PMP)</strong>
+<small>معهد إدارة المشاريع PMI - أسبوعان</small></li>
+<li><strong>إدارة قواعد البيانات Microsoft SQL</strong>
+<small>شركة مايكروسوفت - 5 أيام</small></li>
+</ul>
+</section>
+<section>
+<h2 class="section-title">🌐 اللغات</h2>
+<ul class="tags-list">
+<li class="tag">اللغة العربية (اللغة الأم)</li>
+<li class="tag">اللغة الإنجليزية</li>
+<li class="tag">اللغة الفرنسية</li>
+</ul>
+</section>
+</div>
+</body>
+</html>
